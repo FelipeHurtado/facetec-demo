@@ -115,7 +115,8 @@
                         android:textAllCaps="false"
                         android:textAlignment="center"
                         android:textColor="#fff"
-                        android:textSize="12sp"/>
+                        android:textSize="12sp"
+                       />
 
                     <com.facetec.sampleapp.SampleAppActionButton
                         android:id="@+id/settingsButton"
@@ -169,7 +170,8 @@
                 android:fontFamily="sans-serif-medium"
                 android:textAllCaps="true"
                 android:background="@drawable/vocal_minimal"
-                style="?android:attr/borderlessButtonStyle"/>
+                style="?android:attr/borderlessButtonStyle"
+                />
 
         </RelativeLayout>
 

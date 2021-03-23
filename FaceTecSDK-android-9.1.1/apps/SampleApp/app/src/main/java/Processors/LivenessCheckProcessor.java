@@ -35,8 +35,8 @@ public class LivenessCheckProcessor extends Processor implements FaceTecFaceScan
         //
         // Required parameters:
         // - Context:  Unique for Android, a Context is passed in, which is required for the final onActivityResult function after the FaceTec SDK is done.
-        // - FaceTecFaceScanProcessor:  A class that implements FaceTecFaceScanProcessor, which handles the FaceScan when the User completes a Session.  In this example, "self" implements the class.
-        // - sessionToken:  A valid Session Token you just created by calling your API to get a Session Token from the Server SDK.
+        // - FaceTecFaceScanProcessor:  A class that implements FaceTecFaceScanProcessor, wh ich handles the FaceScan when the User completes a Session.  In this example, "self" implements the class.
+        //        // - sessionToken:  A validSession Token you just created by calling your API to get a Session Token from the Server SDK.
         //
         FaceTecSessionActivity.createAndLaunchSession(context, LivenessCheckProcessor.this, sessionToken);
     }

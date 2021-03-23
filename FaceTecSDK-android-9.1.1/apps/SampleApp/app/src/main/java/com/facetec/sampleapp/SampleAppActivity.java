@@ -79,7 +79,8 @@ public class SampleAppActivity extends Activity {
 
     // Perform Enrollment, generating a username each time to guarantee uniqueness.
     public void onEnrollUserPressed(View v) {
-        utils.fadeOutMainUIAndPrepareForFaceTecSDK(new Runnable() {
+        utils.fadeOutMainUIAndPrepareForFaceTecSDK(new Runnable()
+        {
             @Override
             public void run() {
                 getSessionToken(new SessionTokenCallback() {
